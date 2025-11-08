@@ -3,7 +3,7 @@
     <!-- Page Header -->
     <section class="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">About Premium Tissue</h1>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">About Utsav Papers</h1>
         <p class="text-xl text-primary-100">Your Trusted Partner in Quality Tissue Manufacturing</p>
       </div>
     </section>
@@ -15,7 +15,7 @@
           <div>
             <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
             <p class="text-gray-600 mb-4 leading-relaxed">
-              Founded in 1998, Premium Tissue Manufacturing has been at the forefront of producing high-quality tissue paper products for over 25 years. What started as a small family-owned business has grown into one of the leading tissue manufacturers in the region.
+              Founded in 1998, Utsav Papers Manufacturing has been at the forefront of producing high-quality tissue paper products for over 25 years. What started as a small family-owned business has grown into one of the leading tissue manufacturers in the region.
             </p>
             <p class="text-gray-600 mb-4 leading-relaxed">
               Our journey has been driven by an unwavering commitment to quality, innovation, and customer satisfaction. We've continuously invested in cutting-edge technology and sustainable practices to deliver products that meet the evolving needs of our customers.

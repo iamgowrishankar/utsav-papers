@@ -5,10 +5,10 @@
         <!-- Logo -->
         <router-link to="/" class="flex items-center space-x-3">
           <div class="w-12 h-12 bg-primary-600 rounded-lg flex items-center justify-center">
-            <span class="text-white font-bold text-xl">PT</span>
+            <span class="text-white font-bold text-xl">UP</span>
           </div>
           <div class="hidden sm:block">
-            <h1 class="text-xl font-bold text-gray-900">Premium Tissue</h1>
+            <h1 class="text-xl font-bold text-gray-900">Utsav Papers</h1>
             <p class="text-xs text-gray-600">Manufacturing Excellence</p>
           </div>
         </router-link>

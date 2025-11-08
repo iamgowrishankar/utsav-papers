@@ -1,17 +1,5 @@
 <template>
   <div class="product-detail">
-    <div class="bg-gray-50 py-4">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex items-center space-x-2 text-sm text-gray-600">
-          <router-link to="/" class="hover:text-primary-600">Home</router-link>
-          <ChevronRight :size="16" />
-          <router-link to="/products" class="hover:text-primary-600">Products</router-link>
-          <ChevronRight :size="16" />
-          <span class="text-gray-900 font-medium">Tissue Paper Rolls</span>
-        </div>
-      </div>
-    </div>
-
     <section class="py-12 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid md:grid-cols-2 gap-12">

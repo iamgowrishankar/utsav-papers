@@ -8,7 +8,7 @@
             <div class="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center">
               <span class="text-white font-bold text-lg">PT</span>
             </div>
-            <h3 class="text-xl font-bold">Premium Tissue</h3>
+            <h3 class="text-xl font-bold">Utsav Papers</h3>
           </div>
           <p class="text-gray-400 text-sm mb-4">
             Manufacturing quality tissue products for over 25 years. Your trusted partner for all tissue paper needs.
@@ -64,11 +64,11 @@
             </li>
             <li class="flex items-center space-x-3">
               <Phone :size="18" class="text-primary-400 flex-shrink-0" />
-              <span>+1 (555) 123-4567</span>
+              <span>+91 97896 20197</span>
             </li>
             <li class="flex items-center space-x-3">
               <Mail :size="18" class="text-primary-400 flex-shrink-0" />
-              <span>info@premiumtissue.com</span>
+              <span>info@utsavpapers.com</span>
             </li>
             <li class="flex items-center space-x-3">
               <Clock :size="18" class="text-primary-400 flex-shrink-0" />
@@ -80,7 +80,7 @@
 
       <!-- Bottom Bar -->
       <div class="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
-        <p>&copy; {{ currentYear }} Premium Tissue Manufacturing. All rights reserved.</p>
+        <p>&copy; {{ currentYear }} Utsav Papers Manufacturing. All rights reserved.</p>
       </div>
     </div>
   </footer>

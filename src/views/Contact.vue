@@ -26,7 +26,7 @@
                 </div>
                 <div>
                   <h4 class="font-bold text-gray-900 mb-1">Address</h4>
-                  <p class="text-gray-600 text-sm">123 Manufacturing District<br>Industrial Area, City<br>State 12345</p>
+                  <p class="text-gray-600 text-sm">48A, SIDCO Industrial Estate,<br>Narasothipatti, Salem<br>Tamilnadu 636004</p>
                 </div>
               </div>
 
@@ -36,7 +36,7 @@
                 </div>
                 <div>
                   <h4 class="font-bold text-gray-900 mb-1">Phone</h4>
-                  <p class="text-gray-600 text-sm">Sales: +1 (555) 123-4567<br>Support: +1 (555) 123-4568</p>
+                  <p class="text-gray-600 text-sm">Sales: +91 97896 20197</p>
                 </div>
               </div>
 
@@ -46,7 +46,7 @@
                 </div>
                 <div>
                   <h4 class="font-bold text-gray-900 mb-1">Email</h4>
-                  <p class="text-gray-600 text-sm">info@premiumtissue.com<br>sales@premiumtissue.com</p>
+                  <p class="text-gray-600 text-sm">info@utsavpapers.com<br>sales@utsavpapers.com</p>
                 </div>
               </div>
 
@@ -120,7 +120,7 @@
                       type="tel"
                       class="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
                       :class="{ 'border-red-500': errors.phone }"
-                      placeholder="+1 (555) 123-4567"
+                      placeholder="+91 98765 43210"
                     />
                     <ErrorMessage name="phone" class="text-red-500 text-sm mt-1" />
                   </div>

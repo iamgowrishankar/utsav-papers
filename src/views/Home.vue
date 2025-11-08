@@ -53,7 +53,7 @@
         <div class="text-center mb-12">
           <h2 class="section-title">Our Featured Products</h2>
           <p class="section-subtitle">
-            Discover our range of premium tissue products designed to meet your everyday needs
+            Discover our range of Utsav Papers products designed to meet your everyday needs
           </p>
         </div>
 
@@ -89,7 +89,7 @@
     <section class="py-20 bg-gray-50">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-          <h2 class="section-title">Why Choose Premium Tissue?</h2>
+          <h2 class="section-title">Why Choose Utsav Papers?</h2>
           <p class="section-subtitle">
             We are committed to delivering quality, reliability, and sustainability
           </p>

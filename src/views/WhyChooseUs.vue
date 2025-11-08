@@ -3,7 +3,7 @@
     <!-- Page Header -->
     <section class="bg-gradient-to-r from-primary-600 to-primary-800 text-white py-16">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 class="text-4xl md:text-5xl font-bold mb-4">Why Choose Premium Tissue?</h1>
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">Why Choose Utsav Papers?</h1>
         <p class="text-xl text-primary-100">Your Trusted Partner for Quality Tissue Products</p>
       </div>
     </section>
@@ -199,7 +199,7 @@ const testimonials = [
     initial: 'RJ',
     position: 'Procurement Manager',
     company: 'Luxury Hotels Group',
-    text: 'Premium Tissue has been our trusted supplier for 5 years. Their consistent quality and reliable delivery have made them an invaluable partner for our hotel chain.'
+    text: 'Utsav Papers has been our trusted supplier for 5 years. Their consistent quality and reliable delivery have made them an invaluable partner for our hotel chain.'
   },
   {
     name: 'Sarah Williams',
@@ -213,7 +213,7 @@ const testimonials = [
     initial: 'DC',
     position: 'Owner',
     company: 'Chen Retail Stores',
-    text: 'Working with Premium Tissue for our private label products has been fantastic. Their design team helped us create beautiful packaging, and the products sell themselves!'
+    text: 'Working with Utsav Papers for our private label products has been fantastic. Their design team helped us create beautiful packaging, and the products sell themselves!'
   }
 ]
 
