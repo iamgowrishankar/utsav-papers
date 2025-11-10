@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Redirecting...</title>
-  <script>
-    // Store the path and redirect to index.html
-    sessionStorage.setItem('redirect', location.pathname);
-    location.replace('/utsav-papers/');
-  </script>
-</head>
-<body>
-  Redirecting...
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script type="text/javascript">
+      // Redirect to index.html while keeping the current path
+      const redirectTo = '/utsav-papers/index.html' + window.location.search + window.location.hash;
+      // Replace the current URL so browser history stays clean
+      window.location.replace(redirectTo);
+    </script>
+  </head>
+  <body></body>
 </html>
