@@ -1,12 +1,16 @@
 import { createApp } from 'vue'
-import { createPinia } from 'pinia'
-import './style.css'
 import App from './App.vue'
 import router from './router'
 
 const app = createApp(App)
-const pinia = createPinia()
 
-app.use(pinia)
-app.use(router)
-app.mount('#app')
+// Handle GitHub Pages redirect parameter
+router.isReady().then(() => {
+  const url = new URL(window.location.href)
+  const redirectPath = url.searchParams.get('redirect')
+  if (redirectPath) {
+    router.replace(redirectPath)
+  }
+})
+
+app.use(router).mount('#app')
