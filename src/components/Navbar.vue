@@ -60,22 +60,24 @@
           <router-link to="/" class="mobile-nav-link" @click="mobileMenuOpen = false">Home</router-link>
           <router-link to="/about" class="mobile-nav-link" @click="mobileMenuOpen = false">About Us</router-link>
 
-          <div>
-            <button @click="mobileProductsOpen = !mobileProductsOpen" class="mobile-nav-link w-full flex justify-between items-center">
+          <div class="space-y-2">
+            <button @click="mobileProductsOpen = !mobileProductsOpen" class="mobile-nav-link w-full flex justify-between items-center text-left">
               <span>Products</span>
               <ChevronDown :size="16" :class="{ 'rotate-180': mobileProductsOpen }" class="transition-transform" />
             </button>
-            <div v-if="mobileProductsOpen" class="ml-4 mt-2 space-y-2">
-              <router-link
-                v-for="product in products"
-                :key="product.slug"
-                :to="`/products/${product.slug}`"
-                class="block py-2 text-sm text-gray-600 hover:text-primary-600"
-                @click="mobileMenuOpen = false"
-              >
-                {{ product.name }}
-              </router-link>
-            </div>
+            <transition name="mobile-dropdown">
+              <div v-if="mobileProductsOpen" class="pl-4 space-y-1 bg-gray-50 rounded-md py-2">
+                <router-link
+                  v-for="product in products"
+                  :key="product.slug"
+                  :to="`/products/${product.slug}`"
+                  class="block py-2 px-2 text-sm text-gray-600 hover:text-primary-600 hover:bg-white rounded transition-colors"
+                  @click="mobileMenuOpen = false; mobileProductsOpen = false"
+                >
+                  {{ product.name }}
+                </router-link>
+              </div>
+            </transition>
           </div>
 
           <router-link to="/services" class="mobile-nav-link" @click="mobileMenuOpen = false">Services</router-link>
@@ -145,5 +147,17 @@ const products = [
 .mobile-menu-leave-from {
   opacity: 1;
   max-height: 500px;
+}
+
+.mobile-dropdown-enter-active,
+.mobile-dropdown-leave-active {
+  transition: all 0.2s ease;
+}
+
+.mobile-dropdown-enter-from,
+.mobile-dropdown-leave-to {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
 }
 </style>
